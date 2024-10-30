@@ -20,7 +20,13 @@ Say you like finite differences, but dislike how they succumb to catastrophic ca
 f^\prime(x_0) \equiv \lim_{h\to 0} \textrm{Im}\left(\frac{f(x_0+i h)}{h}\right),
 ```
 
-with $i^2 = -1$ and $\textrm{Im}(z)$ the imaginary part of $z$.
+instead of the usual
+
+```math
+f^\prime(x_0) \equiv \lim_{h\to 0} \left(\frac{f(x_0 + h) - f(x_0 - h)}{2h}\right),
+```
+
+where $i^2 = -1$ and $\textrm{Im}(z)$ the imaginary part of $z$.
 
 If you plot it, you get something like
 
