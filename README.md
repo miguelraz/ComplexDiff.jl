@@ -16,9 +16,10 @@
 
 Say you like finite differences, but dislike how they succumb to catastrophic cancellation. Define
 
-$$
+```math
 f^\prime(x_0) \equiv \lim_{h\to 0} \textrm{Im}\left(\frac{f(x_0+i h)}{h}\right),
-$$
+```
+
 with $i^2 = -1$ and $\textrm{Im}(z)$ the imaginary part of $z$.
 
 If you plot it, you get something like
