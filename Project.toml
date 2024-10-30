@@ -1,0 +1,7 @@
+name = "ComplexDiff"
+uuid = "1d1de044-f46f-5800-b4a4-9afccb2ed989"
+authors = ["Miguel Raz miguelraz@ciencias.unam.mx"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
